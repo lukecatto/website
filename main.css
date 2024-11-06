@@ -1,0 +1,123 @@
+/*main.css*/
+
+header{
+	background-color: #03C03C;
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px;
+}
+
+.title{
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+nav a{
+	
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 22px;
+	font-family: arial;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+nav a:hover{
+	background-color: lightgrey;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+.left{
+	float: left;
+	background-color: lightgrey;
+	width: 485px;
+	padding: 10px 10px;
+	font-family: arial;
+	height: 750px;
+}
+
+.middle{
+	float: left;
+	background-color: grey;
+	width: 850px;
+	padding: 10px 10px;
+	font-family: arial;
+	height: 750px;
+}
+
+.right{
+	float: left;
+	background-color: lightgrey;
+	width: 492px;
+	padding: 10px 10px;
+	font-family: arial;
+	height: 750px;
+}
+
+#foodprices{
+	text-align: center;
+	color: darkred;
+	font-family: arial;
+}
+
+#currency{
+	text-align: center;
+	color: darkorange;
+	font-family: arial;
+}
+
+#curren{
+	font-family: arial;
+}
+
+th,td{
+	text-align: center;
+	padding: 0px 20px;
+	font-family: arial;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-collapse: collapse;
+}
+
+table,th,td{
+	border: 3px solid;
+}
+
+
+
+
+.mid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	padding: 100px 30px;
+}
+
+
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	width: 100%
+	font-family: arial;
+}
